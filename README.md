@@ -4,7 +4,7 @@ This web page has been created to show authors skills and development. This is a
 
 # Demo
 
-
+You can find the demo of this project on: https://kropidlowska-okraska.github.io/MyDogsPage_RWDLayout/
 
 # Technologies used
 
