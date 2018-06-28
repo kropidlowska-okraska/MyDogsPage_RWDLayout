@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+h2 {
+    font-family: 'Nothing You Could Do', cursive;
+}
+
+.header {
+    background-color: #e17ff1;
+    padding:15px;
+    text-align: center;
+    font-family: 'Nothing You Could Do', cursive;
+}
+
+.container {
+    overflow:auto;
+}
+
+.menu {
+    float: left;
+    width: 20%;
+}
+
+.menuitem {
+    padding: 8px;
+    margin-top: 7px;
+    border-bottom: 2px solid #e17ff1;
+}
+
+.menuitem a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    font-family: 'Nothing You Could Do', cursive;
+}
+
+.article {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+.img-article {
+    width: 45%;
+    float: left;
+    margin-right: 20px;
+}
+
+.right-aside {
+    background-color: #e8cdf1;
+    float: left;
+    width: 20%;
+    padding: 10px 15px;
+    margin-top: 7px;
+}
+
+.footer {
+    background-color:#f1f1f1;
+    text-align:center;
+    padding:15px;
+    margin-top:7px;
+    font-size:16px;
+}
+
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .article {
+        width: 80%;
+        padding: 0 10px;
+    }
+    .right-aside {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .menu, .article, .right-aside {
+        width: 100%;
+    }
+}
